@@ -745,8 +745,9 @@ header nav {
     color: white;
     text-decoration: none;
     font-size: 1.25rem;
-    font-weight: 500; }
-    /* line 109, ../scss/styles.scss */
+    font-weight: 500;
+    width: 120px; }
+    /* line 110, ../scss/styles.scss */
     header nav a:hover {
       color: #FFC800; }
     @media screen and (min-width: 680px) {
@@ -765,7 +766,7 @@ header nav {
       header nav a {
         width: 25%; } }
 
-/* line 127, ../scss/styles.scss */
+/* line 128, ../scss/styles.scss */
 .card {
   max-width: 960px;
   background: #f0f0f0;
@@ -776,30 +777,30 @@ header nav {
   text-align: center;
   padding: 4em 1em 6em; }
   @media screen and (min-width: 480px) {
-    /* line 127, ../scss/styles.scss */
+    /* line 128, ../scss/styles.scss */
     .card {
       padding: 4em 3em 6em; } }
   @media screen and (min-width: 640px) {
-    /* line 127, ../scss/styles.scss */
+    /* line 128, ../scss/styles.scss */
     .card {
       width: 84%;
       box-shadow: 0 0 5px #bbb8b2;
       z-index: 99;
       position: relative;
       padding: 4em 3em 4em; } }
-  /* line 146, ../scss/styles.scss */
+  /* line 147, ../scss/styles.scss */
   .card img {
     width: 80%; }
     @media screen and (min-width: 640px) {
-      /* line 146, ../scss/styles.scss */
+      /* line 147, ../scss/styles.scss */
       .card img {
         width: auto; } }
 
-/* line 154, ../scss/styles.scss */
+/* line 155, ../scss/styles.scss */
 section {
   margin: 0 auto 20px; }
 
-/* line 157, ../scss/styles.scss */
+/* line 158, ../scss/styles.scss */
 hr {
   border-top: 1px;
   color: #D4BD86;
@@ -808,39 +809,39 @@ hr {
   width: 80%;
   display: block; }
 
-/* line 167, ../scss/styles.scss */
+/* line 168, ../scss/styles.scss */
 .scrolloff {
   pointer-events: none; }
 
-/* line 170, ../scss/styles.scss */
+/* line 171, ../scss/styles.scss */
 .reservations {
   margin-bottom: 50px;
   min-height: 260px;
   border-top: 2px solid #D4BD86; }
   @media screen and (min-width: 460px) {
-    /* line 170, ../scss/styles.scss */
+    /* line 171, ../scss/styles.scss */
     .reservations {
       min-height: 220px; } }
   @media screen and (min-width: 640px) {
-    /* line 170, ../scss/styles.scss */
+    /* line 171, ../scss/styles.scss */
     .reservations {
       min-height: 180px; } }
 
-/* line 181, ../scss/styles.scss */
+/* line 182, ../scss/styles.scss */
 .reservation-widget {
   height: 180px;
   width: 90%; }
   @media screen and (min-width: 454px) {
-    /* line 181, ../scss/styles.scss */
+    /* line 182, ../scss/styles.scss */
     .reservation-widget {
       height: 120px;
       width: 100%; } }
   @media screen and (min-width: 640px) {
-    /* line 181, ../scss/styles.scss */
+    /* line 182, ../scss/styles.scss */
     .reservation-widget {
       height: 60px; } }
 
-/* line 193, ../scss/styles.scss */
+/* line 194, ../scss/styles.scss */
 .parties {
   padding: 30% 12.5%;
   background: #790400 url(../img/parties-1.jpg) no-repeat top center;
@@ -852,23 +853,23 @@ hr {
   border-top: 2px solid #D4BD86;
   border-bottom: 2px solid #D4BD86; }
   @media screen and (min-width: 768px) {
-    /* line 193, ../scss/styles.scss */
+    /* line 194, ../scss/styles.scss */
     .parties {
       padding: 20% 0; } }
-  /* line 206, ../scss/styles.scss */
+  /* line 207, ../scss/styles.scss */
   .parties h1 {
     margin: 0 auto;
     font-size: 2em;
     letter-spacing: 1px; }
     @media screen and (min-width: 420px) {
-      /* line 206, ../scss/styles.scss */
+      /* line 207, ../scss/styles.scss */
       .parties h1 {
         font-size: 2.2em; } }
     @media screen and (min-width: 768px) {
-      /* line 206, ../scss/styles.scss */
+      /* line 207, ../scss/styles.scss */
       .parties h1 {
         max-width: 566px; } }
-  /* line 217, ../scss/styles.scss */
+  /* line 218, ../scss/styles.scss */
   .parties a.pdf {
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
@@ -883,11 +884,11 @@ hr {
     padding: 4px 4px 10px;
     font-size: 1.2em; }
     @media screen and (min-width: 420px) {
-      /* line 217, ../scss/styles.scss */
+      /* line 218, ../scss/styles.scss */
       .parties a.pdf {
         width: 280px;
         font-size: 1.5em; } }
-    /* line 232, ../scss/styles.scss */
+    /* line 233, ../scss/styles.scss */
     .parties a.pdf:hover {
       -webkit-transition: all 0.1s ease-in-out;
       -moz-transition: all 0.1s ease-in-out;
@@ -896,7 +897,7 @@ hr {
       background: rgba(0, 0, 0, 0.4);
       text-shadow: none; }
 
-/* line 241, ../scss/styles.scss */
+/* line 242, ../scss/styles.scss */
 .menus {
   padding: 4em 4em 3em;
   background: #790400 url(../img/menus.jpg) no-repeat top center;
@@ -908,23 +909,23 @@ hr {
   border-top: 2px solid #D4BD86;
   border-bottom: 2px solid #D4BD86; }
   @media screen and (min-width: 480) {
-    /* line 241, ../scss/styles.scss */
+    /* line 242, ../scss/styles.scss */
     .menus {
       padding: 8em 4em 3em; } }
   @media screen and (min-width: 768px) {
-    /* line 241, ../scss/styles.scss */
+    /* line 242, ../scss/styles.scss */
     .menus {
       padding: 15em 4em 3em; } }
-  /* line 257, ../scss/styles.scss */
+  /* line 258, ../scss/styles.scss */
   .menus h1 {
     margin: 0 auto;
     font-size: 2em;
     letter-spacing: 1px; }
     @media screen and (min-width: 420px) {
-      /* line 257, ../scss/styles.scss */
+      /* line 258, ../scss/styles.scss */
       .menus h1 {
         font-size: 2.2em; } }
     @media screen and (min-width: 768px) {
-      /* line 257, ../scss/styles.scss */
+      /* line 258, ../scss/styles.scss */
       .menus h1 {
         max-width: 668px; } }
