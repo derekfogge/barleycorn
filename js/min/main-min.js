@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$("#mapEmbed").addClass("scrolloff"),$(".map").on("click",function(){$("#mapEmbed").removeClass("scrolloff")}),$(".map").mouseleave(function(){$("#mapEmbed").addClass("scrolloff")}),$(".parties").backstretch(["img/parties-1.jpg","img/parties-2.jpg","img/parties-3.jpg","img/parties-4.jpg"],{duration:2500,fade:750})});

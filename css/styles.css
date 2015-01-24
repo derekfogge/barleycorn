@@ -803,8 +803,36 @@ header nav {
 /* line 159, ../scss/styles.scss */
 section {
   margin: 0 auto 20px; }
+  /* line 161, ../scss/styles.scss */
+  section a.pdf {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    margin: 30px auto;
+    color: white;
+    width: 220px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    text-decoration: none;
+    display: block;
+    padding: 4px 4px 10px;
+    font-size: 1.2em; }
+    @media screen and (min-width: 420px) {
+      /* line 161, ../scss/styles.scss */
+      section a.pdf {
+        width: 280px;
+        font-size: 1.5em; } }
+    /* line 177, ../scss/styles.scss */
+    section a.pdf:hover {
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+      text-shadow: none; }
 
-/* line 162, ../scss/styles.scss */
+/* line 185, ../scss/styles.scss */
 hr {
   border-top: 1px;
   color: #D4BD86;
@@ -813,39 +841,39 @@ hr {
   width: 80%;
   display: block; }
 
-/* line 172, ../scss/styles.scss */
+/* line 195, ../scss/styles.scss */
 .scrolloff {
   pointer-events: none; }
 
-/* line 175, ../scss/styles.scss */
+/* line 198, ../scss/styles.scss */
 .reservations {
   margin-bottom: 50px;
   min-height: 260px;
   border-top: 2px solid #D4BD86; }
   @media screen and (min-width: 460px) {
-    /* line 175, ../scss/styles.scss */
+    /* line 198, ../scss/styles.scss */
     .reservations {
       min-height: 220px; } }
   @media screen and (min-width: 640px) {
-    /* line 175, ../scss/styles.scss */
+    /* line 198, ../scss/styles.scss */
     .reservations {
       min-height: 180px; } }
 
-/* line 186, ../scss/styles.scss */
+/* line 209, ../scss/styles.scss */
 .reservation-widget {
   height: 180px;
   width: 90%; }
   @media screen and (min-width: 454px) {
-    /* line 186, ../scss/styles.scss */
+    /* line 209, ../scss/styles.scss */
     .reservation-widget {
       height: 120px;
       width: 100%; } }
   @media screen and (min-width: 640px) {
-    /* line 186, ../scss/styles.scss */
+    /* line 209, ../scss/styles.scss */
     .reservation-widget {
       height: 60px; } }
 
-/* line 198, ../scss/styles.scss */
+/* line 221, ../scss/styles.scss */
 .parties {
   padding: 30% 12.5%;
   background: #790400 url(../img/parties-1.jpg) no-repeat top center;
@@ -857,51 +885,24 @@ hr {
   border-top: 2px solid #D4BD86;
   border-bottom: 2px solid #D4BD86; }
   @media screen and (min-width: 768px) {
-    /* line 198, ../scss/styles.scss */
+    /* line 221, ../scss/styles.scss */
     .parties {
       padding: 20% 0; } }
-  /* line 211, ../scss/styles.scss */
+  /* line 234, ../scss/styles.scss */
   .parties h1 {
     margin: 0 auto;
     font-size: 2em;
     letter-spacing: 1px; }
     @media screen and (min-width: 420px) {
-      /* line 211, ../scss/styles.scss */
+      /* line 234, ../scss/styles.scss */
       .parties h1 {
         font-size: 2.2em; } }
     @media screen and (min-width: 768px) {
-      /* line 211, ../scss/styles.scss */
+      /* line 234, ../scss/styles.scss */
       .parties h1 {
         max-width: 566px; } }
-  /* line 222, ../scss/styles.scss */
-  .parties a.pdf {
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-    margin: 30px auto;
-    color: white;
-    width: 220px;
-    border: 2px solid white;
-    border-radius: 6px;
-    text-decoration: none;
-    display: block;
-    padding: 4px 4px 10px;
-    font-size: 1.2em; }
-    @media screen and (min-width: 420px) {
-      /* line 222, ../scss/styles.scss */
-      .parties a.pdf {
-        width: 280px;
-        font-size: 1.5em; } }
-    /* line 237, ../scss/styles.scss */
-    .parties a.pdf:hover {
-      -webkit-transition: all 0.1s ease-in-out;
-      -moz-transition: all 0.1s ease-in-out;
-      transition: all 0.1s ease-in-out;
-      color: white;
-      background: rgba(0, 0, 0, 0.4);
-      text-shadow: none; }
 
-/* line 246, ../scss/styles.scss */
+/* line 247, ../scss/styles.scss */
 .menus {
   padding: 4em 4em 3em;
   background: #790400 url(../img/menus.jpg) no-repeat top center;
@@ -913,23 +914,34 @@ hr {
   border-top: 2px solid #D4BD86;
   border-bottom: 2px solid #D4BD86; }
   @media screen and (min-width: 480) {
-    /* line 246, ../scss/styles.scss */
+    /* line 247, ../scss/styles.scss */
     .menus {
       padding: 8em 4em 3em; } }
   @media screen and (min-width: 768px) {
-    /* line 246, ../scss/styles.scss */
+    /* line 247, ../scss/styles.scss */
     .menus {
       padding: 15em 4em 3em; } }
-  /* line 262, ../scss/styles.scss */
+  /* line 263, ../scss/styles.scss */
   .menus h1 {
     margin: 0 auto;
     font-size: 2em;
     letter-spacing: 1px; }
     @media screen and (min-width: 420px) {
-      /* line 262, ../scss/styles.scss */
+      /* line 263, ../scss/styles.scss */
       .menus h1 {
         font-size: 2.2em; } }
     @media screen and (min-width: 768px) {
-      /* line 262, ../scss/styles.scss */
+      /* line 263, ../scss/styles.scss */
       .menus h1 {
         max-width: 668px; } }
+
+/* line 275, ../scss/styles.scss */
+.food {
+  padding: 0; }
+  /* line 277, ../scss/styles.scss */
+  .food .photos {
+    overflow: auto; }
+  /* line 280, ../scss/styles.scss */
+  .food img {
+    width: 50%;
+    float: left; }
